@@ -5,3 +5,29 @@
 .Header {
   font-size: 50px;
 }
+
+.button {
+  padding: 20px 100px;
+  background-color: red;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 25px;
+}
+
+.display {
+  border: 5px dashed grey;
+  height: 100px;
+  margin: 30px;
+  padding-top: 60px;
+  background-color: lightgray;
+  font-size: large;
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: darkred
+}

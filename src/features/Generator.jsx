@@ -24,8 +24,8 @@ const Generator = ({ approvedCharacters }) => {
 
     return (
         <>
-            <button onClick={generatePassword} >Generate!</button>
-            {isPassword ? <div>{newPassword}</div> : <div>WAITING FOR PASSWORD</div>}
+            <button className='button' onClick={generatePassword} >Generate!</button>
+            {isPassword ? <div className='display'>{newPassword}</div> : <div className='display'>WAITING FOR PASSWORD</div>}
         </>
 
     )
